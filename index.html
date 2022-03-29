@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive covid-19 website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo">c<span class="fas fa-virus"></span>won</a>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#covid-stats">stats</a>
+        <a href="#prevent">prevent</a>
+        <a href="#symptoms">symptoms</a>
+        <a href="#hand-wash">hand-wash</a>
+        <a href="login.html" class="logn">Login</a>
+        <a href="docter.html" class="logn">Docter</a>
+        <a href="About.html" class="logn">About us</a>
+        
+
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h1>COVID-19 is Not Over yet.</h1>
+        <h3>stay home, stay safe</h3>
+        <a href="#covid-stats" class="btn">watch stats</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- stats section start  -->
+<section class="covid-stats" id="covid-stats">
+<h1 class="heading">covid-19 Cases stats</h1>
+<main>
+    <div class="stats">
+      <div class="latest-report">
+        <div class="country">
+          <div class="name">Loading...</div>
+          <div class="change-country"> change ></div>
+          <div class="search-country hide">
+            <div class="search-box">
+              <input
+                type="text"
+                id="search-input"
+                placeholder="Search Country..."
+              />
+              <img class="close" src="./resources/img/close.svg" alt="" />
+            </div>
+            <div class="country-list"></div>
+          </div>
+        </div>
+        <div class="total-cases">
+          <div class="title">Total Cases</div>
+          <div class="value">0</div>
+          <div class="new-value">+0</div>
+        </div>
+        <div class="recovered">
+          <div class="title">Recovered</div>
+          <div class="value">0</div>
+          <div class="new-value">+0</div>
+        </div>
+        <div class="deaths">
+          <div class="title">Deaths</div>
+          <div class="value">0</div>
+          <div class="new-value">+0</div>
+        </div>
+      </div>
+      <div class="chart">
+        <canvas id="axes_line_chart"></canvas>
+      </div>
+    </div>
+  </main>
+
+</section>
+<!-- stats section ends -->
+
+<!-- prevent section starts  -->
+
+<section class="prevent" id="prevent">
+
+    <h1 class="heading"> how to prevent virus </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://project.soulad.in/images/pre-1.gif" alt="">
+            <h3>wash your hand</h3>
+            <p>washing hands with soap or handwash can kill virus.</p>
+        </div>
+
+        <div class="box">
+            <img src="https://project.soulad.in/images/pre-2.gif" alt="">
+            <h3>maintain distance</h3>
+            <p>maintainig proper distance is mandotory to avoid covid-19 spread</p>
+        </div>
+
+        <div class="box">
+            <img src="https://project.soulad.in/images/pre-3.gif" alt="">
+            <h3>don't shake hand</h3>
+            <p>Avoid handshake as it can transfer unwanted virus in your body</p>
+        </div>
+
+        <div class="box">
+            <img src="https://project.soulad.in/images/pre-4.gif" alt="">
+            <h3>use hand sanitizer</h3>
+            <p>Rub the hand sanitizer all over your hands, making sure to get between your fingers and on the back of your hands</p>
+        </div>
+
+        <div class="box">
+            <img src="https://project.soulad.in/images/pre-5.gif" alt="">
+            <h3>Stay at Home</h3>
+            <p>The fewer people you're around, the lower your chance of infection. When you stay home, you help stop the spread to others, too</p>
+        </div>
+
+        <div class="box">
+            <img src="https://project.soulad.in/images/pre-6.gif" alt="">
+            <h3>wear a mask</h3>
+            <p>wearing a face mask in public helps prevent the spread of COVID-19. Read our mask-wearing tips to get the maximum protection</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- prevent section ends -->
+
+<!-- symptoms section starts  -->
+
+<section class="symptoms" id="symptoms">
+
+    <h1 class="heading">covid-19 symptoms</h1>
+
+    <div class="column">
+
+        <div class="main-image">
+            <img src="https://project.soulad.in/images/main-symp-img.gif" alt="">
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/symp-a.gif" alt="">
+                <h3>dry cough</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/symp-b.gif" alt="">
+                <h3>sore throat</h3>
+            </div>
+
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/symp-d.gif" alt="">
+                <h3>fever</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/symp-e.gif" alt="">
+                <h3>headache</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/symp-f.gif" alt="">
+                <h3>vomiting</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- symptoms section ends -->
+
+<!-- hand-wash section starts  -->
+
+<section class="hand-wash" id="hand-wash">
+
+    <h1 class="heading">how to wash hand properly</h1>
+
+    <div class="column">
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/wash-a.png" alt="">
+                <h3>water and soap</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/wash-b.png" alt="">
+                <h3>palm to palm</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/wash-c.png" alt="">
+                <h3>Between Fingurs</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/wash-d.png" alt="">
+                <h3>Focus on Thumbs</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/wash-e.png" alt="">
+                <h3>Back of Hands</h3>
+            </div>
+
+            <div class="box">
+                <img src="https://project.soulad.in/images/wash-f.png" alt="">
+                <h3>Focus on wrist</h3>
+            </div>
+
+        </div>
+
+        <div class="main-image">
+            <img src="https://project.soulad.in/images/main-wash-img.gif" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- hand-wash section ends -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Cowin our aim is to Make Army againts novel corona virus and won with corona virus. we are focused in teaching people to prevent covid and fight againts covid. we also show stats of new cases Recover and Death.</p>
+        </div>
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#covid-stats">india</a>
+            <a href="#covid-stats">USA</a>
+            <a href="#covid-stats">france</a>
+            <a href="#covid-stats">russia</a>
+            <a href="#covid-stats">japan</a>
+            <a href="#covid-stats">china</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#prevent">prevent</a>
+            <a href="#symptoms">symptoms</a>
+            <a href="#precautions">precautions</a>
+            <a href="#hand-wash">hand-wash</a>
+            <a href="docter.html">Docter</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <div class="wrapper">
+                <div class="button">
+                   <div class="icon">
+                      <i class="fab fa-facebook-f"></i>
+                   </div>
+                   <span>Facebook</span>
+                </div><p>
+                <div class="button">
+                    <div class="icon">
+                    <i class="fab fa-twitter"></i>
+                    </div>
+                    <span>Twitter</span></p>
+                 </div><p>
+                 <div class="button">
+                    <div class="icon">
+                       <i class="fab fa-instagram"></i>
+                    </div>
+                    <span>Instagram</span>
+                 </div>
+                 </div></p>
+        </div>
+    </div>
+    <div class="footerr">
+    <h1 class="credit"> created by <a href="#">Arpita Bendale</a> &copy; copyright @ 2022 </h1>
+</div>
+</div>
+
+<!-- footer section ends -->
+
+<!-- scroll top  -->
+
+<a href="#home" class="scroll-top">
+    <img src="https://project.soulad.in/images/scroll-img.gif" alt="">
+</a>
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+      integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI="
+      crossorigin="anonymous"></script>
+<script src="https://project.soulad.in/script.js"></script>
+<script src="https://project.soulad.in/countries.js"></script>
+<script src="https://project.soulad.in/app.js"></script>
+
+</body>
+</html>
